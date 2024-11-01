@@ -1,9 +1,10 @@
+import ReservationSidebar from "@/app/components/properties/ReservationSidebar"
 import Image from "next/image"
 
 const PropertyDetailPage = () => {
     return (
-        <main className="max-w-[1500px] mx-auto px-6">
-            <div className="w-full h-[64vh] overflow-hidden rounded-xl relative">
+        <main className="max-w-[1500px] mx-auto px-6 pb-6">
+            <div className="w-full h-[64vh] mb-4 overflow-hidden rounded-xl relative">
                 <Image
                     src={"/beach1.jpg"}
                     alt="beach house"
@@ -12,7 +13,7 @@ const PropertyDetailPage = () => {
                 />
             </div>
 
-            <div className="mt-4 grid grid-cols-1 md:grid-cols-5 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
                 <div className="col-span-3 py-6 pr-6">
                     <h1 className="mb-4 text-xl">
                         Property name
@@ -44,7 +45,7 @@ const PropertyDetailPage = () => {
                     </p>
                 </div>
 
-                <div className="">right</div>
+                <ReservationSidebar />
             </div>
         </main>
     )
