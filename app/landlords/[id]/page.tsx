@@ -1,3 +1,5 @@
+import ContactButton from '@/app/components/ContactButton'
+import PropertList from '@/app/components/properties/PropertList'
 import Image from 'next/image'
 import React from 'react'
 
@@ -17,12 +19,16 @@ const LandlordDetailPage = () => {
 
                         <h1 className="mt-6 text-xl">
                             Landlord name
+
+                            <ContactButton />
                         </h1>
                     </div>
                 </aside>
 
                 <div className="col-span-3 pl-0 md:pl-6">
-                    properties
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <PropertList />
+                    </div>
                 </div>
             </div>
         </main>
