@@ -25,7 +25,7 @@ const LandlordDetailPage = () => {
                     </div>
                 </aside>
 
-                <div className="col-span-3 pl-0 md:pl-6">
+                <div className="col-span-1 md:col-span-4 pl-0 md:pl-6">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         <PropertList />
                     </div>
