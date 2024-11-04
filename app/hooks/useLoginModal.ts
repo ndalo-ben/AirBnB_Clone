@@ -13,4 +13,4 @@ const useLoginModal = create<LoginModalStore>((set) => ({
     close: () => set({ isOpen: false })
 }));
 
-export default useLoginModal
+export default useLoginModal;
