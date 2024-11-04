@@ -28,8 +28,8 @@ const UserNav = () => {
                     <div className="w-[220px] absolute top-[60px] right-0 bg-white border rounded-xl shadow-md">
                         <MenuLink
                             onClick={() => {
-                                console.log('clicked')
                                 loginModal.open()
+                                setIsOpen(false)
                             }
                             }
                             label="sign in" />
