@@ -1,4 +1,4 @@
-FROM python:3.14.0a1-slim-bullseye
+FROM python:3.9.20-bullseye
 
 WORKDIR /usr/src/bnbclone_backend
 
